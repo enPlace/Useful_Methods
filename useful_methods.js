@@ -54,3 +54,16 @@ it to the front.
 //console.log(test)
 //test2.push("test")
 
+let regex = /letter/g
+regex = /letter/i
+regex = /letter/gi
+/*a regular expression is a sequence of characters that form a search pattern. 
+g is a modifier that looks for all instances of the pattern. 
+i is a modifier that makes it case insensitive. 
+You can use more than one modifier
+this is useful for replace() and search() methods. 
+
+
+*/
+
+console.log(test2.replace(/t/gi, "@"))
